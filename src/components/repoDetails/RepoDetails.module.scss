@@ -1,0 +1,31 @@
+.repoDetailsContainer {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+
+    .header {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 4px;
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 0 22px;
+        word-wrap: break-word;
+    }
+}
+
+.btn {
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+}
