@@ -43,3 +43,6 @@ A React-based application that fetches and displays a list of GoDaddy GitHub rep
 └── index.html
 ```
 
+## Deployed App
+
+https://godaddyrepos.netlify.app/
