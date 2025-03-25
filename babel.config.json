@@ -1,0 +1,31 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"modules": "auto",
+				"targets": {
+					"browsers": [
+						"last 10 Chrome versions",
+						"last 10 Firefox versions",
+						"last 10 Safari versions",
+						"last 10 iOS versions",
+						"last 5 Android version",
+						"last 5 ChromeAndroid version",
+						"ie 11"
+					]
+				}
+			}
+		],
+		[
+			"@babel/preset-react",
+			{
+				"runtime": "automatic"
+			}
+		],
+		"@babel/preset-typescript"
+	],
+	"plugins": [
+		"@babel/plugin-transform-runtime"
+	]
+}

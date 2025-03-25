@@ -20,13 +20,16 @@ A React-based application that fetches and displays a list of GoDaddy GitHub rep
 - Clone the repository: `git clone https://github.com/19mayank19/GoDaddyRepos`
 - Navigate to the project directory: `cd GoDaddyRepos`
 - Install dependencies: `npm install`
-- Start the development server:: `npm run dev`
+- Start the development server: `npm run dev`
+- Run Tests: `npm run test`
 
 ## 💡 Folder Structure
 
 ```src
 ├── components
 │   ├── repoList
+|   |   |── __tests__
+|   |   |   |──RepoList.view.test.tsx
 │   │   ├── RepoList.view.tsx
 │   │   ├── RepoList.module.scss
 │   │   ├── RepoList.types.ts
@@ -39,9 +42,4 @@ A React-based application that fetches and displays a list of GoDaddy GitHub rep
 ├── vite.config.ts
 └── index.html
 ```
-
-## Misses
-
-Apologies, but couldn't get enough time to add unit testing. Apart from that, I have tried to implement all the 
-required features.
 
